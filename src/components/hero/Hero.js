@@ -27,55 +27,150 @@ const Hero = () => {
                 width={1160}
                 height={441}
               />
-              <div className="lg:flex absolute -top-10
-               left-5">
+              <div
+                className="lg:flex absolute top-0  lg:-top-10
+               lg:left-5"
+              >
                 <div className="flex items-center justify-center w-full px-6 py-8 lg:h-[32rem] lg:w-full">
                   <div className="max-w-xl">
-                    <h2 className="text-3xl font-semibold text-gray-800 dark:text-white lg:text-4xl">
+                    <h2 className="text-3xl font-semibold text-gray-800 dark:text-white lg:text-[40px] lg:w-[190px]">
                       CMA Fest
                     </h2>
 
-                    <p className="mt-4 text-sm text-gray-500 dark:text-gray-400 lg:text-base">
-                      Make memories that will last a lifetime. See your favorite <br />
+                    <p className="mt-4 text-sm text-gray-500 dark:text-white lg:w-[605px] capitalize lg:text-xl ">
+                      Make memories that will last a lifetime. See your favorite{" "}
+                      <br />
                       artists live at CMA Fest!
                     </p>
 
-                    <div className="flex flex-col mt-6 space-y-3 lg:space-y-0 lg:flex-row">
+                    <div className="flex flex-col justify-start mt-6 space-y-3 lg:space-y-0 lg:flex-row">
+                      <div className="flex lg:w-[140px] justify-start items-center   rounded-[10px] gap-[10px] py-3 px-4 bg-gradient-to-r from-purple-600 to-indigo-600">
+                        <div>
+                          <Image
+                            src="/Resourcess/icon/Vector.png"
+                            alt="img"
+                            width={16}
+                            height={16}
+                          />
+                        </div>
+                        <div>
+                          <h1 className="text-base  text-[#F1F3FF]">
+                            Get Ticket
+                          </h1>
+                        </div>
+                      </div>
                       <a
                         href="#"
-                        className="block px-5 py-2 text-sm font-medium tracking-wider text-center text-white transition-colors duration-300 transform bg-gray-900 rounded-md hover:bg-gray-700"
+                        className="block px-4 py-3 border border-[#F1F3FF] text-base  text-[#F1F3FF]   text-center  transition-colors duration-300 transform  rounded-[10px] lg:mx-4 "
                       >
-                        Get Started
-                      </a>
-                      <a
-                        href="#"
-                        className="block px-5 py-2 text-sm font-medium tracking-wider text-center text-gray-700 transition-colors duration-300 transform bg-gray-200 rounded-md lg:mx-4 hover:bg-gray-300"
-                      >
-                        Learn More
+                        Explore All Events
                       </a>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div>
+            <div className="relative">
               <Image
                 src="/Resourcess/banner.png"
                 alt="img"
                 width={1160}
                 height={441}
               />
-              <div></div>
+              <div
+                className="lg:flex absolute top-0  lg:-top-10
+               lg:left-5"
+              >
+                <div className="flex items-center justify-center w-full px-6 py-8 lg:h-[32rem] lg:w-full">
+                  <div className="max-w-xl">
+                    <h2 className="text-3xl font-semibold text-gray-800 dark:text-white lg:text-[40px] lg:w-[190px]">
+                      CMA Fest
+                    </h2>
+
+                    <p className="mt-4 text-sm text-gray-500 dark:text-white lg:w-[605px] capitalize lg:text-xl ">
+                      Make memories that will last a lifetime. See your favorite{" "}
+                      <br />
+                      artists live at CMA Fest!
+                    </p>
+
+                    <div className="flex flex-col justify-start mt-6 space-y-3 lg:space-y-0 lg:flex-row">
+                      <div className="flex lg:w-[140px] justify-start items-center   rounded-[10px] gap-[10px] py-3 px-4 bg-gradient-to-r from-purple-600 to-indigo-600">
+                        <div>
+                          <Image
+                            src="/Resourcess/icon/Vector.png"
+                            alt="img"
+                            width={16}
+                            height={16}
+                          />
+                        </div>
+                        <div>
+                          <h1 className="text-base  text-[#F1F3FF]">
+                            Get Ticket
+                          </h1>
+                        </div>
+                      </div>
+                      <a
+                        href="#"
+                        className="block px-4 py-3 border border-[#F1F3FF] text-base  text-[#F1F3FF]   text-center  transition-colors duration-300 transform  rounded-[10px] lg:mx-4 "
+                      >
+                        Explore All Events
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div>
+            <div className="relative">
               <Image
                 src="/Resourcess/banner.png"
                 alt="img"
                 width={1160}
                 height={441}
               />
-              <div></div>
+              <div
+                className="lg:flex absolute top-0  lg:-top-10
+               lg:left-5"
+              >
+                <div className="flex items-center justify-center w-full px-6 py-8 lg:h-[32rem] lg:w-full">
+                  <div className="max-w-xl">
+                    <h2 className="text-3xl font-semibold text-gray-800 dark:text-white lg:text-[40px] lg:w-[190px]">
+                      CMA Fest
+                    </h2>
+
+                    <p className="mt-4 text-sm text-gray-500 dark:text-white lg:w-[605px] capitalize lg:text-xl ">
+                      Make memories that will last a lifetime. See your favorite{" "}
+                      <br />
+                      artists live at CMA Fest!
+                    </p>
+
+                    <div className="flex flex-col justify-start mt-6 space-y-3 lg:space-y-0 lg:flex-row">
+                      <div className="flex lg:w-[140px] justify-start items-center   rounded-[10px] gap-[10px] py-3 px-4 bg-gradient-to-r from-purple-600 to-indigo-600">
+                        <div>
+                          <Image
+                            src="/Resourcess/icon/Vector.png"
+                            alt="img"
+                            width={16}
+                            height={16}
+                          />
+                        </div>
+                        <div>
+                          <h1 className="text-base  text-[#F1F3FF]">
+                            Get Ticket
+                          </h1>
+                        </div>
+                      </div>
+                      <a
+                        href="#"
+                        className="block px-4 py-3 border border-[#F1F3FF] text-base  text-[#F1F3FF]   text-center  transition-colors duration-300 transform  rounded-[10px] lg:mx-4 "
+                      >
+                        Explore All Events
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+            
           </Slider>
         </Container>
       </ContainerFluid>

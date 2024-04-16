@@ -32,4 +32,6 @@ margin: 0 10px;
     opacity: 1 !important;
    ;
 }
-
+.z-10{
+  z-index: 1 !important;
+}

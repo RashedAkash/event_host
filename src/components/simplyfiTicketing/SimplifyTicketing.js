@@ -15,7 +15,7 @@ const SimplifyTicketing = () => {
                 SIMPLIFY TICKETING
               </h1>
             </div>
-            <div className="lg:w-[480px] mt-4 mb-7 lg:h-[58px] mx-auto  ">
+            <div className="lg:w-[480px] mt-4 z-10 mb-7 lg:h-[58px] mx-auto  ">
               <h1 className=" text-transparent bg-clip-text text-center bg-gradient-to-r from-purple-600 to-indigo-600 text-2xl ">
                 First Ever Unique  QR Ticketing <br />  Platform For Event
                 Registration & Booking
@@ -37,9 +37,7 @@ const SimplifyTicketing = () => {
               </div>
             </div>
           </div>
-          <div
-            className="lg:-mt-36"
-          >
+          <div className="lg:-mt-36 ">
             <Image
               src="/Resourcess/payment.png"
               alt="img"
