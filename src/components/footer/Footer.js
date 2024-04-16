@@ -9,12 +9,12 @@ const Footer = () => {
         style={{
           backgroundImage: "url(/Resourcess/footer.jpg)",
         }}
-        className=" relative "
+        className=" relative py-[100px] "
       >
         <div className="absolute inset-0 bg-[#591BFF] opacity-85"></div>
         <Container>
           <div className="hero-content text-center text-neutral-content">
-            <footer className="footer p-10  text-white ">
+            <footer className="footer   text-white ">
               <aside>
                 <div className="text-white z-10">
                   <Image
@@ -82,7 +82,7 @@ const Footer = () => {
               </nav>
             </footer>
           </div>
-          <div className="md:flex justify-between items-center z-10 border-t-2 border-white pt-7 ">
+          <div className="md:flex justify-between items-center z-10 border-t-2 border-white pt-7 mt-[50px] ">
             <div className=" flex md:justify-between items-center gap-5 ">
               <h1 className="text-white z-10">Pay with</h1>
               <div className="flex items-center gap-5">
