@@ -20,7 +20,7 @@ const Hero = () => {
       <ContainerFluid>
         <Container>
           <Slider {...settings}>
-            <div className="relative">
+            <div className="relative lg:mb-[100px] mb-30px">
               <Image
                 src="/Resourcess/banner.png"
                 alt="img"
