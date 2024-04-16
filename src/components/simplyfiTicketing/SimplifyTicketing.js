@@ -37,7 +37,16 @@ const SimplifyTicketing = () => {
               </div>
             </div>
           </div>
-          <div></div>
+          <div
+            className="lg:-mt-36"
+          >
+            <Image
+              src="/Resourcess/payment.png"
+              alt="img"
+              width={1160}
+              height={400}
+            />
+          </div>
         </section>
       </Container>
     </ContainerFluid>
