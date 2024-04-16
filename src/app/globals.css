@@ -1,3 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.slick-slide > div{
+margin: 0 10px;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: 19px !important;
+    display: block;
+    width: 100%;
+    padding: 0;
+    /* margin: 0; */
+    list-style: none;
+    text-align: center;
+}
+
+
+.slick-dots li button:before {
+  font-size: 12px !important;
+  color: white !important; 
+  opacity: .75 !important;
+  /* Change dot color to white */
+}
+.slick-dots li button {
+  width: 30px !important; /* Adjust the width of the dots */
+  height: 30px !important; /* Adjust the height of the dots if needed */
+}
+.slick-dots li.slick-active button:before {
+    opacity: 1 !important;
+   ;
+}
+
