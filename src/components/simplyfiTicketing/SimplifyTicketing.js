@@ -8,7 +8,7 @@ const SimplifyTicketing = () => {
   return (
     <ContainerFluid>
       <Container>
-        <section>
+        <section className="mb-[100px]">
           <div>
             <div className="lg:w-[424px] mx-auto ">
               <h1 className="text-4xl text-[#111] font-bold text-center">

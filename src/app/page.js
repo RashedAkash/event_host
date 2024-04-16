@@ -1,3 +1,4 @@
+import Footer from "@/components/footer/Footer";
 import Hero from "@/components/hero/Hero";
 import HostEvnet from "@/components/hostEvent/HostEvnet";
 import QrScanner from "@/components/qrScanner/QrScanner";
@@ -11,6 +12,7 @@ export default function Home() {
       <HostEvnet />
       <QrScanner />
       <SimplifyTicketing />
+      <Footer />
     </div>
   );
 }
