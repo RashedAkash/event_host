@@ -35,3 +35,9 @@ margin: 0 10px;
 .z-10{
   z-index: 1 !important;
 }
+.borderCard{
+  border: 1px solid rgba(59, 71, 240, 0.2);
+}
+.card-body{
+  padding: 0;
+}
