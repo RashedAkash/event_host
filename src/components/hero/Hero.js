@@ -94,7 +94,7 @@ const Hero = () => {
                     </p>
 
                     <div className="flex flex-col justify-start mt-6 space-y-3 lg:space-y-0 lg:flex-row">
-                      <div className="flex lg:w-[140px] justify-start items-center   rounded-[10px] gap-[10px] py-3 px-4 bg-gradient-to-r from-purple-600 to-indigo-600">
+                      <div className="flex lg:w-[140px] justify-start items-center   rounded-[10px] gap-[10px] py-3 px-4 bg-[#7342F9]">
                         <div>
                           <Image
                             src="/Resourcess/icon/Vector.png"

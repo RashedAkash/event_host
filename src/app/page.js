@@ -1,3 +1,4 @@
+import Events from "@/components/events/Events";
 import Footer from "@/components/footer/Footer";
 import Hero from "@/components/hero/Hero";
 import HostEvnet from "@/components/hostEvent/HostEvnet";
@@ -11,6 +12,7 @@ export default function Home() {
     <div>
       <Navbar />
       <Hero />
+      <Events />
       <HostEvnet />
       <QrScanner />
       <SimplifyTicketing />
