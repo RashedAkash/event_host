@@ -5,7 +5,9 @@ import ContainerFluid from "../container/ContainerFulid";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import EventsCard from "./EventsCard";
+import { useState } from "react";
 const Events = () => {
+   const [defaultTabIndex, setDefaultTabIndex] = useState(4);
   const forYou = eventData?.filter(e=> e.category === 'for you' )
   const thisDay = eventData?.filter((e) => e.category === "this day");
   const union = eventData?.filter((e) => e.category === "union");
@@ -17,12 +19,12 @@ const Events = () => {
         <Container>
           <div>
             <div className="lg:w-[158px] mx-auto ">
-              <h1 className="text-5xl mb-6  text-[#111] font-bold text-center">
+              <h1 className="text-5xl mb-4  text-[#111] font-bold text-center">
                 Events
               </h1>
             </div>
             <div className="text-center">
-              <Tabs>
+              <Tabs defaultIndex={defaultTabIndex}>
                 <TabList>
                   <Tab>All</Tab>
                   <Tab>For You</Tab>
