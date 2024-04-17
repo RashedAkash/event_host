@@ -4,7 +4,7 @@ import { FaLocationDot } from "react-icons/fa6";
 const EventsCard = ({ event }) => {
   return (
     <div className="bg-[#F1F3FF] p-5 rounded-xl">
-      <div>
+      <div className="relative">
         <Image
           className=" pb-2 "
           src={event?.image}
@@ -15,6 +15,22 @@ const EventsCard = ({ event }) => {
         <p className="text-[#7342F9] text-[15px]">
           - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
         </p>
+        <p className="bg-[#7342F9] inline-block rounded py-1 text-white px-[10px] absolute top-2 left-2 ">
+          Online
+        </p>
+        <div className="flex  justify-start items-center   rounded-[10px] gap-[10px] py-1 px-2 absolute top-2 right-2  bg-[#7342F9]">
+          <div>
+            <Image
+              src="/Resourcess/icon/Heart.png"
+              alt="img"
+              width={16}
+              height={16}
+            />
+          </div>
+          <div>
+            <h1 className="text-base  text-[#F1F3FF]">Favorite</h1>
+          </div>
+        </div>
       </div>
       <div className=" flex justify-between mt-2">
         <div className=" text-start">

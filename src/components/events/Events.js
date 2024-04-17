@@ -7,12 +7,12 @@ import "react-tabs/style/react-tabs.css";
 import EventsCard from "./EventsCard";
 const Events = () => {
   return (
-    <section>
+    <section className="my-[100px]">
       <ContainerFluid>
         <Container>
           <div>
             <div className="lg:w-[158px] mx-auto ">
-              <h1 className="text-5xl  text-[#111] font-bold text-center">
+              <h1 className="text-5xl mb-6  text-[#111] font-bold text-center">
                 Events
               </h1>
             </div>
@@ -28,7 +28,7 @@ const Events = () => {
                 </TabList>
 
                 <TabPanel>
-                  <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                  <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
                     {eventData?.map((event) => (
                       <EventsCard key={event.image} event={event} />
                     ))}
